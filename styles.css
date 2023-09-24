@@ -7,7 +7,6 @@
 
 body {
   height: 100vh;
-  border: 2px solid yellow;
 }
 
 .container {
@@ -19,8 +18,8 @@ body {
   background-size: cover;
   background-position: center;
   width: 40%;
-  height: 100%;
-  border: 2px solid pink;
+  height: 100vh;
+  
 }
 
 .title-container {
@@ -30,8 +29,11 @@ body {
   height: 5rem;
   background-color: rgba(0, 0, 0, 0.377);
   color: rgb(77, 77, 77);
-  margin-top: 35%;
+  margin-top: 20px;
 }
 
+.footer {
+  font-size: .8rem;
+}
 
 
