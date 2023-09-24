@@ -54,12 +54,6 @@ a:hover {
   color: rgb(77, 77, 77);;
   width: 100%;
 }
-
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
 /* -----------first section---------------- */
 .paragraph-container {
   width: 700px;
@@ -72,6 +66,12 @@ form {
   margin-top: 30px;
 }
 /* -------------second section------------------- */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 .label-input-container {
   display: flex;
   flex-direction: column;
@@ -84,4 +84,12 @@ form {
 
 label {
   font-size: .8rem;
+}
+/* --------------third section---------------------- */
+.submit-container {
+ display: flex;
+ flex-direction: column;
+ gap: 1rem;
+ align-items: flex-start;
+ padding: 2rem 0;
 }
