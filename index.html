@@ -8,7 +8,7 @@
 </head>
 <body>
   <div class="container">
-    <div class="image-container">
+    <div class="left-container">
       <div class="title-container">
         <h1 class="title">Sign-up Form Project</h1>
       </div>
@@ -16,16 +16,42 @@
         Photo by Lucas Pezeta on <a href="https://www.pexels.com/" style="color: rgb(77,77,77);">pexels</a>
       </div>
     </div>
-    <div class="form-container">
-      <div class="paragraph">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-        doloribus natus sint officiis cupiditate architecto odio ducimus
-        tenetur. Expedita itaque modi repellendus quaerat possimus magnam. 
-        Tenetur molestias obcaecati veritatis quae.
+    <div class="right-container">
+      <div class="paragraph-container">
+        <div class="paragraph">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+          doloribus natus sint officiis cupiditate architecto odio ducimus
+          tenetur. Expedita itaque modi repellendus quaerat possimus magnam.
+          Tenetur molestias obcaecati veritatis quae.
+        </div>
+        <div>Lorem ipsum dolor sit amet.</div>
       </div>
-      <form action="" method="post">
-      
-      </form>
+      <div class="form-container">
+        <form action="" method="post">
+          <div class="name-container">
+            <label for="first-name">FIRST NAME</label>
+            <input type="text" id="first-name" name="first-name" required>
+            <label for="last-name">LAST NAME</label>
+            <input type="text" id="last-name" name="last-name" required>
+          </div>
+          <div class="contact-container">
+            <label for="email">E MAIL</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">PHONE NUMBER</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+          <div class="password-container">
+            <label for="password">PASSWORD</label>
+            <input type="password" id="password" name="password" required>
+            <label for="confirm-password">CONFIRM PASSWORD</label>
+            <input type="password" id="password" name="password" required>
+          </div>
+          <div class="sumbit-container">
+            <button type="submit">Create Account</button>
+            <div class="login">Already have an account? <a href="">log in</a></div>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
 </body>
