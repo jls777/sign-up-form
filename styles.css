@@ -82,15 +82,25 @@ form {
 .label-input-container {
   display: flex;
   flex-direction: column;
+  width: 40%;
 }
 
 .row {
   display: flex;
-  gap: 5rem;
+  gap: 7rem;
 }
 
 label {
   font-size: .7rem;
+}
+input {
+  height: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  color: rgb(77, 77, 77);
+  background-color: rgba(128, 128, 128, 0.027);
+  border-radius: 10px;
+  border: rgb(77, 77, 77);
 }
 /* --------------third section---------------------- */
 .submit-container {
