@@ -14,12 +14,14 @@ body {
 }
 
 .image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-image: url(resizefog.jpg);
   background-size: cover;
   background-position: center;
   width: 40%;
-  height: 100vh;
-  
+  height: 100%;
 }
 
 .title-container {
@@ -29,11 +31,13 @@ body {
   height: 5rem;
   background-color: rgba(0, 0, 0, 0.377);
   color: rgb(77, 77, 77);
-  margin-top: 20px;
+  margin-top: 200px;
 }
 
 .footer {
   font-size: .8rem;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 
