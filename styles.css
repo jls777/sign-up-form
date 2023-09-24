@@ -1,13 +1,23 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-.background-image {
-  width: 30%;
+body {
   height: 100vh;
+  border: 2px solid yellow;
 }
 
-.form-container {
-  width: 70%;
+.container {
+  height: 100%;
+}
+
+.image-container {
+  background-image: url(resizefog.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 40%;
+  height: 100%;
+  border: 2px solid pink;
 }
