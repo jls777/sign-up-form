@@ -54,6 +54,7 @@ a:hover {
   justify-content: center;
   color: rgb(77, 77, 77);;
   width: 60%;
+  height: 100%;
 }
 /* -----------first section---------------- */
 .paragraph-container {
@@ -130,4 +131,58 @@ button {
 
 button:hover {
   background-color: rgb(17, 17, 17);
+}
+/* -----------media queries------------------- */
+
+@media (max-width: 900px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .left-container {
+    background-image: none;
+    height: unset;
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+  .title-container {
+    margin: 0;
+    padding: 2rem;
+    width: 100%;
+  }
+  .footer {
+    display: none;
+  }
+  .right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .right-container > * {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 500px;
+  }
+  .left-container {
+    width: 500px;
+  }
+  .paragraph-container {
+    display: none;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    gap: unset;
+  }
+  .label-input-container {
+    width: 100%;
+  }
 }
